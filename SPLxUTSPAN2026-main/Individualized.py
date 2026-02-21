@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 # ----------------------------
 # USER SETTINGS
 # ----------------------------
-DATA_DIR = "/Users/obaida/Downloads/spl-utspan-data-challenge-2026"
+DATA_DIR = "."
 TRAIN_PATH = os.path.join(DATA_DIR, "train.csv")
 TEST_PATH  = os.path.join(DATA_DIR, "test.csv")
 OUT_PATH   = os.path.join(DATA_DIR, "submission_improved.csv")
